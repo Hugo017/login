@@ -1,0 +1,45 @@
+body {
+    background-image: url("sunny2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+form > p {
+    font-family: 'Bungee Spice', cursive;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:15px;
+    padding: 20px 70px;
+}
+div {
+    width: 450px;
+    height: 450px;
+    background-color: #04004bc0;
+    padding: 50px 30px;
+    align-items: center;
+    border-radius: 25px;
+}
+input[type="email"] {
+    margin: 20px;
+}    
+input[type="text"] {
+    margin: 20px;  
+}
+input[type="submit"] {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    font-family: 'Nabla', cursive;
+}
